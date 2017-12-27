@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Multimedia</title>
+  </head>
+
+  <style>
+  h1{
+    font-family: Microsoft Tai Le;
+    font-size: 30px;
+    color: #CC2EFA;
+  }
+  #div1, #div2{
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+
+  </style>
+
+
+  <body>
+    <h1>Elemento video</h1>
+    <video width="320" height="240" controls>
+      <source src="video/movie.mp4" type="video/mp4">
+    </video>
+
+  <div style="text-align:center">
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br><br>
+    <video id="video1" width="420">
+      <source src="video/movie2.mp4" type="video/mp4">
+        <source src="video/movie2.ogg" type="video/ogg">
+    </video>
+  </div>
+
+  <script>
+  var myVideo = document.getElementById("video1");
+
+  function playPause(){
+    if(myVideo.paused)
+    myVideo.play();
+    else
+     myVideo.pause();
+  }
+  function makeBig(){
+    myVideo.width = 560;
+  }
+  function makeSmall(){
+    myVideo.width = 320;
+  }
+  function makeNormal(){
+    myVideo.width = 420;
+  }
+  </script>
+
+  <h1>Etiqueta Audio</h1>
+  <audio controls> <!--control adiciona botones de pausa volumen y descarga-->
+    <source src="audio/audio1.ogg" type="audio/ogg">
+      <source src="audio/audio1.mp3" type="audio/mpeg">
+  </audio>
+  <p>Manuel Medrano Bajo el agua <a href="https://www.youtube.com/watch?v=zLX_GcXt2pI" target="_blank">In YouTube</a>
+  </p>
+
+  <h1>HTML YouTube Videos</h1>
+  <iframe src="https://www.youtube.com/embed/dlwwvoQWRb0" width="520" height="345"></iframe> <br>
+  YouTube Loop = una vez termina el video se vuelve a reproducir el mismo <br>
+  <iframe src="https://www.youtube.com/embed/o7_KiU2H5d0?playlist=o7_KiU2H5d0&loop=1" width="320" height="240"></iframe> <br>
+  Controls YouTube default activates value 0 players controls does not display <br>
+  <iframe src="https://www.youtube.com/embed/9bgV-VesT_A?controls=0" width="320" height="240"></iframe>
+
+  <h1>HTML5 Geolocation</h1>
+  <p>Click the button to get your coordinates</p>
+  <button onclick="getLocation()">Try It</button>
+  <p id="demo"></p>
+
+  <script>
+    var x = document.getElementById("demo");
+
+    function getLocation(){
+      if (navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+      }else {
+        x.innerHTML = "Geolocation is not supportes by this browser.";
+      }
+    }
+    function showPosition(position){
+      x.innerHTML = "Latitude: " + position.coords.latitude +
+      "<br>Longitude: " + position.coords.longitude;
+    }
+    /*control de errores y rechazo*/
+    function showError(erro){
+      switch (error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            X.innerHTML ="Location information is unavailabe."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML ="The request to get location time out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error ocurred."
+            break;
+
+      }
+    }
+      </script>
+
+      <p id="demo">Click the button to get your position.</p>
+
+      <button onclick="getLocation()">Try It</button>
+
+      <div id="mapholder"></div>
+
+      <script>
+      var x = document.getElementById("demo");
+
+      function getLocation() {
+          if (navigator.geolocation) {
+              navigator.geolocation.getCurrentPosition(showPosition, showError);
+          } else {
+              x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+      }
+
+      function showPosition(position) {
+          var latlon = position.coords.latitude + "," + position.coords.longitude;
+          var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+          +latlon+"&zoom=14&size=400x300&key=AIzaSyCwTmkgDU07RMPkBKEBdF-gqIzOVHObkhA";
+          document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+      }
+      </script>
+      <h1>Drag and Drop / Arrastrar y Soltar</h1>
+      <script>
+      function allowDrop(ev){
+        ev.preventDefault();
+      }
+      function drag(ev){ /*metodo que establece el tipo de datos y el valor de los datos arrastrados*/
+        ev.dataTransfer.setData("text", ev.target.id);
+      }
+      function drop(ev){ /*cuando se deja caer el elemento arrastrado, se produce este evento de caida*/
+        ev.preventDefault();/*llamar el elemento preventDefault para evitar la manupulacion del navegador por defecto*/
+        var data = ev.dataTransfer.getData("text"); /*con el get obtiene los datos arrastrados, este metodos devolvera todos los datos establecidos en el setData()*/
+        ev.target.appendChild(document.getElementById(data));/*anexa el elementos arrastrado en en elemento de caida*/
+      }
+      </script>
+      <p>Drag the W3Schools image into the rectangle:</p>
+
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> <!--el elemto ondragover
+        especifica donde los datos arrastrados se pueden descartar-->
+      <br>
+      <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="drag1" src="images/img_logo.gif" draggable="true" ondragstart="drag(event)"
+        width="336" height="69"> <!--atributo draggable = true hace elemento arrastable-->
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

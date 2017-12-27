@@ -1,0 +1,704 @@
+<!DOCTYPE html> <!--declaración define este documento para ser HTML5-->
+<html><!--elemento es el elemento raíz de una página HTML-->
+  <head> <!--elemento contiene información de metadatos sobre el documento-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--etiqueta que ajusta la pagina acualquier dispositivo sea movil-->
+
+    <script>
+    function myFunction(){
+      var x = document.getElementsByClassName("city2");
+      for(var i = 0; i < x.length; i++){
+        x[i].style.display = "none";
+      }
+    }
+    </script>
+
+
+    <script>
+          function myFunction2(){
+            document.getElementById("demo2").innerHTML = "Te odio!!";
+          }
+  </script>
+
+<!-- definimos style cuando es dentro del mismo HTML pero por lo general se realiza
+en un archivo independiente .css el cual es referenciado en head -->
+    <style>
+    #diferente{
+      font-family: monospace;
+      font-size: 40px;
+      border: 2px solid magenta;
+      background-color: cyan;
+      margin: 10px;
+      padding: 5px; /*Espacio en margenes*/
+    }
+    table, th,td {
+      border: 1px solid blue;
+      border-collapse: collapse;
+    }
+    th, td{
+      padding: 5px;
+      text-align: left;
+      color: darkblue;
+    }
+    table#t01 tr:nth-child(even){
+      background-color: grey;
+    }
+    table#t01 tr:nth-child(odd){
+      background-color: green;
+    }
+    table#t01 th{
+      background-color: black;
+      color:white;
+    }
+    ul#ul01{ /*Coloca caja de color */
+     list-style-type: none; /*le quita la viñeta punto*/
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #00BFFF;
+    }
+    li#li01{ /*Alinea de forma horizontal*/
+      float: left;
+    }
+    li a { /*texto del listado*/
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+    li a:hover{ /*cuando se pasa el puntero por la palabra se subraya del color*/
+      background-color: #8000FF;
+
+    }
+    div#div01{
+      background-color: black;
+      color:white;
+      padding:20px;
+      font-size: 15px;
+      font-family: courier;
+    }
+    span{
+      color:red;
+    }
+    .city{
+      background-color: tomato;
+      color: white;
+      padding: 10px;
+    }
+    div.container{
+      width: 100%
+      border: 1px solid gray;
+    }
+    header, footer {
+      padding: 1em;
+      color: white;
+      background-color: black;
+      clear: left;
+      text-align: center;
+    }
+    nav{
+      float: left;
+      max-width: 160x;
+      margin: 0;
+      padding: 1em;
+      background-color: purple;
+    }
+    nav ul{
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul a{
+      text-decoration: none;
+    }
+    article{
+      margin-left: 170px;
+      border-left: 1px solid gray;
+      padding: 2.4em;
+      overflow: hidden;
+      background-color: violet;
+    }
+
+
+    </style>
+
+
+    <title>Page title</title> <!--elemento especifica un título para el documento-->
+  </head>
+  <body><!--elemento contiene el contenido de la página visible-->
+
+    <h1 id="principio" style="font-size:60px;">This is a Heading</h1> <!--Define un gran encabezado-->
+    <h2 title="Soy un titulo"> This is a heading 2</h2>
+    <h3>This is a heading 3</h3>
+    <hr> <!--etiqueta separa texto pinta liena-->
+    <h4>Titulo 4</h4>
+    <p>Mambru se fue a la guerra<br>que dolor que dolor<br></p> <!--br salto de liena-->
+    <hr>
+    <h5>Titulo 5</h5>
+    <h6>Tutulo 6</h6>
+      <p style="color:blue"> This is a paragraph.</p> <!--Define un parrafo-->
+      <p title="Soy un parrafo"> This is other paragraph</p> <!--tooltip-->
+
+
+      <a href="https://www.w3schools.com"> This is a link</a> <!--Def0001ine un vinculo-->
+      <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> <!--Define unaa imagen-->
+<pre> <!--El texto dentro del elemento conserva los espacios -->
+Quiero decirle al mundo.
+Que no somos amigos.
+Decirle a la tristeza
+Que no se cruce en mi camino
+
+</pre>
+
+<!-- ESTILOS-->
+  <body style="background-color:powderblue;">
+    <h1 style="color:blue;">Titulo Azul</h1>
+    <h2 style="font-family:verdana;">Titulo Verdana</h2>
+      <p2 style="font-family:curier">Parrafo courier<p2>
+        <p style="text-align:center";>Parrafo centrado</p>
+        <!--FORMATOS HTML-->
+        <p>En el siguiente parrafo se definen los formatos
+        mas usados <b>texto en negrita</b> continuamos <strong>Texto importante</strong>
+        seguimos, <i> Texto en cursiva</i> prosigamos<em> texto con enfasis</em>
+        sigamos con mas<mark> Marcado de texto</mark> quieres mas??
+        <small>Pequeño texto</small> sigamos con mas <del>El texto eliminado con raya</del>
+        como cuando tenemos mas,<ins>El texto insertado</ins> mambru se fue a la guerra
+        <sub>Texto subindice</sub> y por ultimo <sup>Texto superindice</sup>.. Hemos terminado...</p>
+<!--Algunas Citas HTML-->
+       <P> Lo siguiente es util para abreviaciones ejm <abbr title="Cascading Style Sheets">CSS</abbr>
+         pasa el puntero por la palabra CSS</P>
+<!-- COLORES HTML-->
+       <h1 style="background-color:DodgerBlue;">Hello World my firts Tittle in color COLORS HTML</h1>
+         <p style="background-color:Tomato;">Mi primer parrafo de color Tomate se ve bastande chido</p>
+         <h1 style="color:MediumSlateBlue;">Estableciendo</h1>
+         <p style="color:RoyalBlue;">Los colores en los texto</p>
+
+         <h1 style="border:2px solid Magenta;">Color del Borde</h1>
+
+         <p id=diferente>Este es mi parrafo diferente CSS style</p>
+<!-- Enlaces cuando son en el mismo sitio sin http y termina en .asp-->
+
+        <a href="https://www.xbox.com/es-CO" target="_blank"> <!--target _blank abre en una nueva pestaña-->
+          <img src="images/xbox.png" alt="Ingreso a xbox" style="width:60px;height:60px;border:0">
+        </a>
+
+        <p><a href="#principio">Enlace salto al primer titulo dentro de la misma pag</a></p>
+
+<!--IMAGENES EN HTML-->
+        <p> Intererante click por coordenadas, clcik en el computador, telefono o taza de cafe
+          te iras al link que le espcifiques el atributo alt="" sirve para
+        colocar un texto alternativo que defina la imagen en caso de que no cargue</p>
+          <img src="images/workplace.jpg" alt="workplace" usemap="#mapa" width="400" height="379">
+          <map name="mapa">
+            <area shape="rect" coords="34,44,270,350" alt="computador" href="https://www.asus.com/co/">
+            <area shape="rect" coords="290,172,333,250" alt="celular" href="https://www.google.com" >
+            <area shape="circle" coords="337,300,44" alt="taza de cafe" href="https://www.asus.com/co/">
+          </map>
+
+          <p style="background-image:url('images/fondo.jpg')">
+            Podemos hacer un parrafo bien largo<br>
+            Podemos hacer un parrafo bien largo<br>
+            Podemos hacer un parrafo bien largo<br>
+            Podemos hacer un parrafo bien largo<br>
+            Podemos hacer un parrafo bien largo<br>
+            Podemos hacer un parrafo bien largo y ponerle una imagen de fondo
+          </p>
+<!-- TABLAS HTML-->
+         <p><b>Tabla sin bordes</b></p>
+         <table style="width:50%">
+           <tr> <!--table row = filas-->
+             <th>Firstname</th>  <!--table header = encabezado en negrilla-->
+             <th>Lastname</th>
+             <th>Age</th>
+           </tr>
+           <tr>
+             <td>Lorena</td> <!--datos de tabla celda = normal-->
+             <td>Leal</td>
+             <td>25</td>
+           </tr>
+           <tr>
+             <td>Alfonso</td> <!--datos de tabla celda = normal-->
+             <td>Cuervo</td>
+             <td>45</td>
+           </tr>
+         </table>
+
+         <p>Adicion de un borde</p>
+         <table id= "t01" style="width:100%">
+           <caption>Añadiendo una leyenda a la tabla - Caption</caption>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+              <th colspan="2">Cell</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+              <td>7777777</td>
+              <td>1234567</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>54</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Otros Numeros</th>
+              <td>55555</td>
+            </tr>
+            <tr>
+              <td>99909</td>
+            </tr>
+
+          </table>
+
+<a href=""></a>
+
+<!--LISTAS HTML-->
+          <ul style="list-style-type:disc"> <!--type: disc, circle,square,none Listas sin orden-->
+            <li>Coffe</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+
+          <ol type="1">  <!--lista ordenada , type: 1, A, a , I, i -->
+            <li>Cofee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+
+
+          <h2>A Description List</h2>
+
+          <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+          </dl>
+
+          <h2>A Nested List</h2>
+
+          <ul>
+            <li>Coffee</li>
+            <li>Tea
+              <ul>
+              <li>Black tea</li>
+              <li>Green tea</li>
+              </ul>
+            </li>
+            <li>Milk</li>
+          </ul>
+          <!--Uso de listas para Menus stylos en css-->
+          <ul id="ul01">
+            <li id="li01"><a href="#home">Home</a></li>
+            <li id="li01"><a href="#news">News</a></li>
+            <li id="li01"><a href="#contact">Contact</a></li>
+            <li id="li01"><a href="#about">About</a></li>
+
+          </ul>
+<!--ELEMENTOS DIV SON BLOQUES QUE CONTIENEN OTROS ELEMENTOS HTML-->
+          <div id="div01">
+            <h2>Elementos contenidos en div</h2>
+            <p>Este es un parrafo contenido en un elmento div</p>
+            <p>Este es otro parrafo de mismo elemento div </p>
+            <p>la etiqueta span es usada para definir estilos
+              especiales en cierto texto o palabra<span> PALABRA SPAN</span> como puedes ver.</p>
+          </div>
+<!--CLASS HTML-->
+
+          <h2 class="city">Bogota</h2>
+          <p>Bogota es la capital de Colombia.</p>
+          <h2 class="city">Paris</h2>
+          <p>Paris es la capital de Francia.</p>
+          <h2 class="city">Tokio</h2>
+          <p>Tokio es la capital de Japon.</p>
+          <!--USANDO EL ATRIBUTO CLASS EN JAVASCRIPT-->
+
+          <p>Click en el boton, y Javascrip ocultara los elementos con la clase "city2":</p>
+          <button onclick="myFunction()">Ocultar Elmentos</button>
+
+          <h2 class="city2">Bogota</h2>
+          <p>Bogota es la capital de Colombia.</p>
+          <h2 class="city2">Paris</h2>
+          <p>Paris es la capital de Francia.</p>
+          <h2 class="city2">Tokio</h2>
+          <p>Tokio es la capital de Japon.</p>
+<!--HTML IFRAMES MARCOS - Se usa para mostrar una pag dentro de otra-->
+          <iframe src="https://www.w3schools.com"height="100px" width="200px" style="border:2px solid blue"></iframe>
+<!--JAVASCRIPT-->
+          <h1>Mi primer JavaScript</h1>
+          <p id="demo"></p>
+          <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click y te dare la fecha y hora</button><br>
+          <button type="button" onclick="myFunction2()">Click Me!</button>
+          <p id="demo2">Esta es una demostracion cambiara el texto.</p>
+
+          <p id="demo3">JavaScript puede cambiar el estilo de un elemento HTML</p>
+          <script>
+          function myFunction3(){
+            document.getElementById("demo3").style.fontSize = "25px";
+            document.getElementById("demo3").style.color = "red";
+            document.getElementById("demo3").style.backgroundColor = "yellow";
+          }
+          </script>
+          <button type="button" onclick="myFunction3()">Click Me!!</button><br><br>
+
+
+
+          <img id="myImage" src="images/pic_bulboff.gif" width="100" height="180">
+          <p>
+            <button type="button" onclick="light(1)">Encender!</button>
+            <button type="button" onclick="light(0)">Apagar!</button>
+          </p>
+          <script>
+          function light(sw){
+            var pic;
+            if(sw == 0){
+              pic = "images/pic_bulboff.gif"
+            }else{
+              pic = "images/pic_bulbon.gif"
+            }
+            document.getElementById("myImage").src = pic;
+
+          }
+          </script>
+<!--HTML LAYOUTS-->
+          <div class="container">
+            <header>
+              <h1>City Gallery</h1>
+            </header>
+
+            <nav> <!--conjunto de enlaces de navegacion-->
+              <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+              </ul>
+            </nav>
+
+            <article>
+              <h1>London</h1>
+              <p>Este es un articulo sobre londres, blabla bla bla blabla continuamos
+              y allis supe que las despedidas son muy tristes</p>
+              <p>Este es otro parrafo bla bla bla bla ayer que regrese alguien me dijo que ya casaste
+              me marchare con los ojos cerrados....</p>
+            </article>
+            <footer>Copyright &copy; W3Schools.com </footer>
+          </div>
+<!--HTML CONPUTER  CODE ELEMENTS-->
+          <p>La etiqueta kbd se usa para activar acciones con teclas comandos elemento de entrada:</p>
+          <p>Guarda el documento presionando <kbd>Ctrl + S</kbd></p>
+          <p>El elemento samp representa una forma de salida de un programa o sistema:</p>
+          <p>Si algun valor de entrada es erroneo el programa retorna <samp>Error!</samp>
+          <p>El lemento var define una variable</p>
+          <p>Einsten wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
+<!--FORMULARIOS-->
+
+          <h1>Formularios</h1>
+          <form>
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname">
+          </form>
+          <p>Boton de opcion</p>
+          <form>
+            <input type="radio" name="genero" value="masculino" checked>Masculino<br>
+            <input type="radio" name="genero" value="femenino">Femenino<br>
+            <input type="radio" name="genero" value="otro">Otro
+          </form>
+          <p>Boton Enviar</p>
+          <form action="/action_page.php" target="_blank" method="post"> <!--target _blank es para que abra en otra pagina-->
+            <fieldset> <!--agrupa los elementos relacionados con el formulario-->
+              <legend>Personal Information:</legend><!--define  un titulo para el formulario-->
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+          </form>
+
+          <p>Lista desplegable</p>
+          <form action="/action_page.php">
+            <select name="cars" size="3" multiple><!--el elemento select define una lista desplegable,
+              size especifica el numero de valores visibles
+              multiple permite selecionar mas de un valor-->
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat" selected>Fiat</option><!--selected define el valor predeterminado-->
+              <option value="Audi">Audi</option>
+            </select>
+            <br><br>
+            <input type="submit">
+          </form>
+          <form action="/action_page.php">
+            <textarea name="message" rows="10" cols="30">The cat was playing in the garden</textarea><!--define un campo de entrada
+              de lineas multiple rows = filas cols especifica achura visible de un area de texto-->
+              <br>
+              <input type="submit">
+          </form>
+          <p>Elemento button</p>
+          <button type="button" onclick="alert('Hello World')">Click Me!</button>
+<!--HTML5 datalist-->
+              <form action="/action_page.php">
+              <input list="browsers" name="browser"><!--especifica una lista de opciones predefinidas de un elemento-->
+              <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+              </datalist>
+              <input type="submit">
+              </form>
+
+              <br><br>
+<!--TIPOS DE ENTRADAS-->
+              <form>
+                Nombre:<br>
+                <input type="text" name="nombre" value="Lorena"><br><!--tipo texto-->
+                Apellido:<br>
+                <input type="text" name="apellido" value="Leal"><br>
+                Contraseña:<br>
+                <input type="password" name="psw"><br><br><!--tipo pa1ssword-->
+                <input type="submit" value="submit"><!--define un boton para la presentacion de datos-->
+                <input type="reset"><br><br><!--boton de reinicio que restablece todo los valores a los predeterminados-->
+                <p>Boton de radio permite seleccionar al usuario solo una opcion</p>
+                <input type="radio" name="genero" value="masculino">Masculino
+                <input type="radio" name="genero" value="femenino" checked>Femenino
+                <input type="radio" name="genero" value="Otro">Otro<br><br>
+                <p>Casilla de verificaciòn</p>
+                <input type="checkbox" name="vehicle1" value="Bike">I have a Bike<br>
+                <input type="checkbox" name="vehicle2" value="Car">I have a car<br>
+                <p>Tipo de entrada Boton</p>
+                <input type="button" value="Click Me!" onclick="alert('Hola mk')">
+                <p>HTML5 Tipo color</p>
+                Selecciona tu color favorito:
+                <input type="color" name="favcolor" value="#2EFE2E">
+                <p>Tipo de entrada Fecha</p><br>
+                Cumpleaños:
+                <input type="date" name="bday">
+                <p>Sepeden agregar reglas para las fechas:</p>
+                 Ingrese una fecha antes de 1980-01-01:<br>
+                <input type="date" name="bday" max="1979-12-31"><br>
+                Infrese una fecha despues de 2000-01-01:<br>
+                <input type="date" name="bday" min="2000-01-02"><br>
+                Tipo DateTime
+                <input type="datetime-local" name="bdaytime"><br><br>
+                TIpo Email
+                <input type="email" name="enamil"><br><br>
+                Tipo Mes
+                <input type="month" name="bdaymonth"><br><br>
+                Tipo Numero define un campo numero puede tener restricciones:<br>
+                Ingrese entre (1 - 5)
+                <input type="number" name="quantity" min="1" max="5"><br>
+                Ejemplo de a 10 de 0 a 100 valor en 30:<br>
+                <input type="number" name="quiantity" min="0" max="100" step="10" value="30"><br>
+                Rango
+                Points:
+                <input type="range" name="points" min="0" max="10"><br>
+                Type Search:
+                <input type="search" name="googlesearch"><br>
+                Tipo Tel  para campos de entrada telefono:
+                <input type="tel" name="usrtel"><br>
+                Tipo Time:
+                <input type="time" name="usr_time"><br>
+                Tipo url
+                <input type="url" name="homepage"><br>
+                Tipo Semana:
+                <input type="week" name="year_week"><br>
+                <h2>Valores de Atributos de entrada</h2>
+                <input type="text" name="firstname" value="John"><br>
+                Atributo de solo lectura
+                <input type="text" name="firstname" value="Lorena" readonly><br>
+                Atributo Disable
+                <input type="text" name="firstname" value="Lorena" disabled><br>
+                El tamaño del atributo
+                <input type="text" name="firstname" value="Lorena" size="40"><br>
+                El maxlength longitud maxima
+                <input type="text" name="firstname" maxlength="10"><br>
+                HTML5 <br>
+                Autocomplete<br>
+                <form action="/action_page.php" autocomplete="on">
+                First name:<input type="text" name="fname"><br>
+                Last name: <input type="text" name="lname"><br>
+                E-mail: <input type="email" name="email" autocomplete="off"><br>
+                <input type="submit">
+              </form>
+                Novalidate atributo form especifica que los datos del formulacion no se validan<br>
+              <form action="/action_page.php" novalidate>
+                E-mail: <input type="email" name="user_email">
+                <input type="submit">
+                </form>
+                Enfoque automatico<br>
+                First name:<input type="text" name="fname" **autofocus>
+                Atributo Form<br>
+                <form action="/action_page.php" id="form1">
+                First name: <input type="text" name="fname"><br>
+                <input type="submit" value="Submit">
+                </form>
+
+                <p>The "Last name" field below is outside the form element, but still part of the form.</p>
+                Last name: <input type="text" name="lname" form="form1">
+                Atributo FormAction <br>
+                Un formulario con do botones de envio con diferentes acciones <br>
+                <form action="/action_page.php">
+                First name: <input type="text" name="fname"><br>
+                Last name: <input type="text" name="lname"><br>
+                <input type="submit" value="Submit"><br>
+                <input type="submit" formaction="/action_page2.php" value="Submit to another page">
+                </form>
+                Definir una imagen como el boton de enviar con atrobutos width y height <br>
+                <form action="/action_page.php">
+                First name: <input type="text" name="fname"><br>
+                Last name: <input type="text" name="lname"><br>
+                <input type="image" src="images/img_submit.gif" alt="Submit" width="48" height="48">
+              </form>
+                Atributo lista <br>
+                <form action="/action_page.php" method="get">
+
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                  <option value="Internet Explorer">
+                  <option value="Firefox">
+                  <option value="Chrome">
+                  <option value="Opera">
+                  <option value="Safari">
+                </datalist>
+                <input type="submit">
+                </form>
+                Atributo multiple <br>
+                campo para subir archivos que acepta varios valores: <br>
+                <form action="/action_page.php">
+                Select images: <input type="file" name="img" multiple>
+                <input type="submit">
+              </form>
+               Atribuo Placehorder <br>
+               <form action="/action_page.php">
+              <input type="text" name="fname" placeholder="First name"><br>
+              <input type="text" name="lname" placeholder="Last name"><br>
+              <input type="submit" value="Submit">
+            </form>
+              Atributo required <br>
+              Campo de entrada requerido <br>
+              <form action="/action_page.php">
+              Username: <input type="text" name="usrname" required>
+              <input type="submit">
+            </form>
+              </form>
+
+              <h1>Canvas</h1>
+              Ejmeplo de lienzo <br>
+              <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas> <br>
+              Dibujando una linea dentro del lienzo <br>
+              <canvas id="myCanvasdos" width="200" height="100" style="border:1px solid #CC2EFA;"></canvas>
+              <script>
+              var c = document.getElementById("myCanvasdos");
+              var ctx = c.getContext("2d");
+              ctx.moveTo(0,0);
+              ctx.lineTo(200,100);
+              ctx.stroke();
+              </script>
+              <br>
+              Dibujando un circulo <br>
+              <canvas id="myCanvastres" width="200" height="100" style="border:1px solid #000000"></canvas>
+              <script>
+              var c = document.getElementById("myCanvastres");
+              var ctx = c.getContext("2d");
+              ctx.beginPath();
+              ctx.arc(95,50,45,0,2*Math.PI);
+              ctx.stroke();
+              </script>
+              <br>
+              Dibujando texto <br>
+              <canvas id="myCanvascuatro" width="200" height="100"></canvas>
+              <script>
+              var c = document.getElementById("myCanvascuatro");
+              var ctx = c.getContext("2d");
+              ctx.font ="30px Arial";
+              ctx.fillText("Hello World",10,50);
+              </script>
+              <br>
+              Stroke Text <br>
+              <canvas id="myCanvascinco" width="200" height="100"></canvas>
+              <script>
+              var c = document.getElementById("myCanvascinco");
+              var ctx = c.getContext("2d");
+              ctx.font = "30px curier";
+              ctx.strokeText("Lorena",10,50);
+              </script>
+              <br>
+              <h1>SGV Es un lenguaje para describir graficos en 2d</h1> <br>
+              <svg width="100" height="100">
+              <circle cx="50" cy="50" r="40"
+              stroke="green" stroke-width="4" fill="yellow" />
+              <br>
+              <svg width="400" height="100">
+              <rect width="400" height="100"
+              style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+              </svg>
+              <br>
+              <svg width="400" height="180">
+              <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+              style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+              </svg>
+              <br>
+              <svg width="300" height="200">
+              <polygon points="100,10 40,198 190,78 10,78 160,198"
+              style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+              </svg>
+              <br>
+              <svg height="130" width="500">
+              <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%"
+              style="stop-color:rgb(255,255,0);stop-opacity:1" />
+              <stop offset="100%"
+              style="stop-color:rgb(255,0,0);stop-opacity:1" />
+              </linearGradient>
+              </defs>
+              <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+              <text fill="#ffffff" font-size="45" font-family="Verdana"
+              x="50" y="86">SVG</text>
+              </svg>
+
+              <h1>My First Google Map</h1>
+
+              <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+              <script>
+              function myMap() {
+              var mapOptions = {
+                  center: new google.maps.LatLng(51.5, -0.12),
+                  zoom: 10,
+                  mapTypeId: google.maps.MapTypeId.HYBRID
+              }
+              var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+              }
+              </script>
+
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwTmkgDU07RMPkBKEBdF-gqIzOVHObkhA&callback=myMap"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
