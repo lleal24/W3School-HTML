@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T17:41:05.205Z" agent="5.0 (Windows)" version="18.1.1" etag="5VTvDHsIfLv7OSV2ckjQ" type="github"><diagram id="Vz1LQWYYgoZJYa9WPTMA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-02T19:35:56.602Z" agent="5.0 (Windows)" etag="-jLVwp2wYZWRWhBtZLI1" version="18.1.1" type="github">
+  <diagram id="Vz1LQWYYgoZJYa9WPTMA" name="Page-1">
+    <mxGraphModel dx="1262" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="oRs4G_0_r_TQLa6dv7a5-40" target="oRs4G_0_r_TQLa6dv7a5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-40" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;dashed=1;dashPattern=5 2 1 2;labelPosition=center;verticalLabelPosition=top;align=right;verticalAlign=bottom;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="137" y="419" width="143" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="oRs4G_0_r_TQLa6dv7a5-20" target="oRs4G_0_r_TQLa6dv7a5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-20" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;dashed=1;dashPattern=5 2 1 2;labelPosition=center;verticalLabelPosition=top;align=right;verticalAlign=bottom;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="539" y="439" width="300" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-14" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;dashed=1;dashPattern=5 2 1 2;labelPosition=center;verticalLabelPosition=top;align=right;verticalAlign=bottom;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="447" width="146" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="oRs4G_0_r_TQLa6dv7a5-11" target="oRs4G_0_r_TQLa6dv7a5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-28" value="Authentication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRs4G_0_r_TQLa6dv7a5-27">
+          <mxGeometry x="-0.1235" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="oRs4G_0_r_TQLa6dv7a5-11" target="oRs4G_0_r_TQLa6dv7a5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-31" value="GetMotivos &amp;amp; Report Tracking (ENT, IFEs)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRs4G_0_r_TQLa6dv7a5-30">
+          <mxGeometry x="-0.0947" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-11" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;dashed=1;dashPattern=5 2 1 2;labelPosition=center;verticalLabelPosition=top;align=right;verticalAlign=bottom;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="137" y="200" width="156" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="oRs4G_0_r_TQLa6dv7a5-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-10" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;dashed=1;dashPattern=5 2 1 2;labelPosition=center;verticalLabelPosition=top;align=right;verticalAlign=bottom;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="102" y="607" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-4" value="&lt;div&gt;courierboxmilla&lt;/div&gt;&lt;div&gt;https://courierboxmilla.azurewebsites.net/&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="185" y="627" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-6" value="CourrierboxMilla " style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Mobile.svg;" vertex="1" parent="1">
+          <mxGeometry x="193" y="230" width="40" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-7" value="courierboxbd" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="1076" y="467" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/solutions.svg;" vertex="1" parent="1">
+          <mxGeometry x="112" y="679" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-12" value="Web App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="577" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-13" value="Mobile App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="183" y="170" width="68" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-15" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1066" y="417" width="68" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-16" value="&lt;div&gt;courierboxmillaapi&lt;/div&gt;&lt;div&gt;https://courierboxmillaapi.azurewebsites.net/&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="656" y="465" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-17" value="Web API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="oRs4G_0_r_TQLa6dv7a5-24" target="oRs4G_0_r_TQLa6dv7a5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-42" value="AspNetUsers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRs4G_0_r_TQLa6dv7a5-32">
+          <mxGeometry x="-0.1491" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-24" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;dashed=1;dashPattern=5 2 1 2;labelPosition=center;verticalLabelPosition=top;align=right;verticalAlign=bottom;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="541" y="205" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-25" value="&lt;div&gt;sifamillaapicorierbox&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://sifamillaapicourierbox.azurewebsites.net/&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="657" y="220" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-26" value="Web API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="661" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-38" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="177" y="448" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRs4G_0_r_TQLa6dv7a5-41" value="Functions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="181" y="389" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
