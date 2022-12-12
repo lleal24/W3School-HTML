@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T01:14:31.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.4.0" etag="rBGyjSGERS7q2gndhIZN" type="github"><diagram id="T4_1F7EbWYFK1W1kDp1Y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-12T02:23:41.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="VI9BNEdDCKs30j8H_S1C" version="20.4.0" type="github">
+  <diagram id="T4_1F7EbWYFK1W1kDp1Y" name="Página-1">
+    <mxGraphModel dx="1550" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NeIOtczMZDeGmm8DqjP4-1" target="NeIOtczMZDeGmm8DqjP4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-1" value="Nojsys.Web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-2" value="Nojsys.Business" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-3" value="Nojsys.Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-4" value="Nojsys.Entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeIOtczMZDeGmm8DqjP4-2" target="NeIOtczMZDeGmm8DqjP4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="170" as="sourcePoint" />
+            <mxPoint x="510.71067811865476" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NeIOtczMZDeGmm8DqjP4-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="120" as="sourcePoint" />
+            <mxPoint x="490" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeIOtczMZDeGmm8DqjP4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-9" value="Nojsys.WebJobs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-25" value="request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeIOtczMZDeGmm8DqjP4-19" target="NeIOtczMZDeGmm8DqjP4-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="406" />
+              <mxPoint x="350" y="406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-19" value="Nojsys.Business" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-20" value="Nojsys.Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="406" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-21" value="Nojsys.Entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="502" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeIOtczMZDeGmm8DqjP4-19" target="NeIOtczMZDeGmm8DqjP4-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="532" as="sourcePoint" />
+            <mxPoint x="510.71067811865476" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NeIOtczMZDeGmm8DqjP4-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="482" as="sourcePoint" />
+            <mxPoint x="490" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-26" value="trmResponse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeIOtczMZDeGmm8DqjP4-24" target="NeIOtczMZDeGmm8DqjP4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeIOtczMZDeGmm8DqjP4-24" value="Nojsys.Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="296" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
